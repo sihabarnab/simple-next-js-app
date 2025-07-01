@@ -1,4 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌀 Simple Next.js App
+
+A clean and minimal personal portfolio built with **Next.js 15 App Router** and **Tailwind CSS**.  
+Fully responsive, SEO-optimized, and ready to deploy!
+
+---
+
+## 🚀 Features
+
+- ✅ Next.js 15 with App Router
+- ✅ Tailwind CSS for styling
+- ✅ Responsive design
+- ✅ File-based routing
+- ✅ Custom loading component
+- ✅ Component-based structure
+- ✅ Deployed on Vercel
+
+---
+
+## 📁 Folder Structure
+
+
 
 ## Getting Started
 
