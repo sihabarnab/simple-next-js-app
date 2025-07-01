@@ -14,7 +14,7 @@ const stats = [
 ];
 
 const Analytics = () => {
-  throw new Error("Error occured in Alalytics page ");
+  // throw new Error("Error occured in Alalytics page ");
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
