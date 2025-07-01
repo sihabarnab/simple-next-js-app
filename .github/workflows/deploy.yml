@@ -28,16 +28,14 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Export Static (Optional for Static Export Projects)
-        run: npm run export
+      # Removed 'npm run export' step because it's deprecated in Next.js 15
 
-      # Optional: Upload artifacts if needed
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: nextjs-build
           path: .next/
 
-      # Deploy to Vercel (optional)
+      # Optional: Deploy to Vercel
       # - name: Deploy to Vercel
       #   run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
