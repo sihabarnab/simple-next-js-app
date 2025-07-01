@@ -1,5 +1,3 @@
-import { resolve } from "styled-jsx/css";
-
 const fetchPosts = async () => {
   await new Promise((resolve) => {
     setTimeout(() => {
